@@ -1,0 +1,12 @@
+- Can I call bin2dec
+- Get 0 when I pass in "0"
+- Get 1 when I pass in "1"
+- Get 2 when I pass in "10"
+- Get 3 when I pass in "11"
+- Get 4 when I pass in "100"
+- Get 5 when I pass in "101"
+- Get 6 when I pass in "110"
+- Get 7 when I pass in "111"
+- Get 8 when I pass in "1000"
+- Get 9 when I pass in "1001"
+- Get 10 when I pass in "1010"
