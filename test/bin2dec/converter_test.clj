@@ -21,3 +21,7 @@
 (deftest test-returns-four-when-100-passed-in
   (let [ret-val (conv/bin2dec "100")]
     (is (= 4 ret-val) "It should return 4 when \"100\" is passed in")))
+
+(deftest test-returns-five-when-101-passed-in
+  (let [ret-val (conv/bin2dec "101")]
+    (is (= 5 ret-val) "It should return 5 when \"101\" is passed in")))
