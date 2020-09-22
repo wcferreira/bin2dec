@@ -33,3 +33,7 @@
 (deftest test-returns-seven-when-111-passed-in
   (let [ret-val (conv/bin2dec "111")]
     (is (= 7 ret-val) "It should return 7 when \"111\" is passed in")))
+
+(deftest test-returns-eight-when-1000-passed-in
+  (let [ret-val (conv/bin2dec "1000")]
+    (is (= 8 ret-val) "It should return 8 when \"1000\" is passed in")))
