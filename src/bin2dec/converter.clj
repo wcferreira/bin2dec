@@ -2,4 +2,5 @@
 
 (defn bin2dec
   [bin]
-  0)
+  (Integer. bin))
+
